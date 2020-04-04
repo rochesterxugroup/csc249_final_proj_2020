@@ -1,24 +1,20 @@
-# Final Project of CSC249
-Welcome to the final project of CSC249!
+# Final Project of CSC249/449
+Welcome to the final project of CSC249/449!
 
 In this final project, you are going to build deep learning models for two tasks on A2D dataset. Please read *final_project.pdf* for more details of the project requirement.
 
 
 
-**Update 1 [April 3 1:30pm] :** The dataset has been updated. If you have already download the older one, please remove it by `rm -rf A2D`. Please download the latest dataset (the same link given below) and extract the frames from videos again. You don't have to train your model again if you train it on the older dataset.
-
-
-
 ## Preparation
 
-Before start working on a specific task, please do the following preparation on your Google Cloud.
+Before start working on a specific task, please do the following preparation on your **Google Cloud**.
 
 - **Clone the repository**
 
   Please use the following command to clone this repository (please do not download the zip file):
 
   ```bash
-  git clone --recursive https://github.com/rochesterxugroup/csc249_final_proj.git
+  git clone --recursive https://github.com/rochesterxugroup/csc249_final_proj_2020.git
   ```
 
   If there is any updates of the repository, please use the following commands to update:
@@ -31,12 +27,12 @@ Before start working on a specific task, please do the following preparation on 
   cd to the cloned repo:
 
   ```bash
-  cd csc249_final_proj
+  cd csc249_final_proj_2020
   ```
 
 - **Environment Configuration**
 
-  1. Download and install miniconda from https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  1. Download and install miniconda from https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh (You can skip this step if miniconda is installed on your google cloud server.)
 
   2. Install the virtual enviroment and its dependencies by:
 
@@ -50,7 +46,7 @@ Before start working on a specific task, please do the following preparation on 
      conda activate pytorch_0_4_1
      ```
 
-  4. Then, install Pytorch 0.4.1 and torchvision
+  4. Then, install Pytorch 0.4.1 and torchvision. (You can try newer version of PyTorch, but we don't guarantee the code template can work with a different environment.)
 
      ```bash
      conda install pytorch=0.4.1 cuda92 -c pytorch
