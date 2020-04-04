@@ -66,7 +66,13 @@ Before start working on a specific task, please do the following preparation on 
   1. Download the A2D dataset
 
      ```bash
-     curl http://www.cs.rochester.edu/~cxu22/t/249S19/A2D.tar.gz --output A2D.tar.gz
+     wget http://www.cs.rochester.edu/~cxu22/t/249S19/A2D.tar.gz
+     ```
+
+     If wget is not install on the server, please install wget via
+
+     ```wget
+     sudo apt install wget
      ```
 
   2. Decompress the tar ball and remove tar ball.
